@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Media files (if locally generated)
+media/
+staticfiles/
+static_root/
+static/
+
+# VS Code settings
+.vscode/
+
+# Mac and Linux junk files
+.DS_Store
+Thumbs.db
+
+# Pytest and coverage
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# AWS / credentials
+*.pem
+.env.*
+secrets.json
+
+# Build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Render deploy
+render.yaml
